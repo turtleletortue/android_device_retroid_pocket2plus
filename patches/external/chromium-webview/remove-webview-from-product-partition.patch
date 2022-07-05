@@ -1,0 +1,13 @@
+diff --git a/Android.mk b/Android.mk
+index 566b02e..cc021b5 100644
+--- a/Android.mk
++++ b/Android.mk
+@@ -22,7 +22,7 @@ include $(CLEAR_VARS)
+ 
+ LOCAL_MODULE := webview
+ LOCAL_MODULE_CLASS := APPS
+-LOCAL_PRODUCT_MODULE := true
++LOCAL_PRODUCT_MODULE := false
+ LOCAL_MULTILIB := both
+ LOCAL_CERTIFICATE := $(DEFAULT_SYSTEM_DEV_CERTIFICATE)
+ LOCAL_REQUIRED_MODULES := \
