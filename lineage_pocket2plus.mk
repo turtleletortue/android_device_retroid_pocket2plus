@@ -11,7 +11,3 @@ PRODUCT_MANUFACTURER := retroid
 PRODUCT_MODEL := Retroid Pocket 2 Plus
 PRODUCT_NAME := lineage_pocket2plus
 PRODUCT_RELEASE_NAME := RetroidPocket2Plus
-
-# Lineage Overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay/lineage
-
