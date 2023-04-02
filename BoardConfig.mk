@@ -27,6 +27,9 @@ BOARD_SUPPRESS_EMMC_WIPE := true
 TARGET_SCREEN_HEIGHT := 480
 TARGET_SCREEN_WIDTH := 640
 
+# Display
+TARGET_SCREEN_DENSITY := 176
+
 # System prop
 TARGET_SYSTEM_PROP += device/retroid/pocket2plus/system.prop
 
