@@ -13,6 +13,10 @@ $(call inherit-product, $(LOCAL_PATH)/fixsymlinks/fixsymlinks.mk)
 # Vendor Prop
 include $(LOCAL_PATH)/vendor_prop.mk
 
+# MicroSD boot files
+PRODUCT_COPY_FILES += \
+	device/retroid/pocket2plus/microsdboot/device-resources/deviceinfo:root/device-resources/deviceinfo
+
 # Recovery files
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/ueventd.ums312_2h10.rc:root/ueventd.ums312_2h10.rc \
